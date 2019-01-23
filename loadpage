@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Load Page </title>
+<style>
+
+</style
+</head>
+<body>
+<div id="div1"> 
+  <h1 id="title1"> Clicker Counter </h1>
+  <button id="button1" onclick="loadOne()"> Load </button>
+</div>
+
+<!--
+This is basically the entire basic thing, just a frame for the thing I'm making.
+-->
+
+
+<script>
+var n = "";
+var title1 = document.getElementById('title1');
+var button1 = document.getElementById('button1');
+var div1 = document.getElementById('div1');
+var x = 0;
+var z = "Your click count is:" + x + ".";
+function loadOne(){
+  var a = 0;
+  if(a == 0){
+    title1.innerHTML = n;
+    button1.innerHTML = n;
+    return button1;
+    return title1;
+    a = 1;
+    }
+  }
+  if(a == 1){
+    div1.innerHTML = z;
+    } else return a;
+   }
+   
+    
+
+
+
+</body>
+</html>
