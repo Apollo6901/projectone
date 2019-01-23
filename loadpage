@@ -3,6 +3,14 @@
 <head>
 <title> Load Page </title>
 <style>
+body{
+  text-align: center;
+  font-family: Bahnschrift;
+ }
+ button{
+  color: black;
+  background-color: rgba(200, 50, 05, 0.5);
+ }
 
 </style
 </head>
@@ -26,20 +34,18 @@ var button1 = document.getElementById('button1');
 var div1 = document.getElementById('div1');
 var x = 0;
 var z = "Your click count is:" + x + ".";
-function loadOne(){
-  var a = 0;
+var a = 0;
+function loadOne() {
   if(a == 0){
     title1.innerHTML = n;
     button1.innerHTML = n;
-    return button1;
-    return title1;
     a = 1;
     }
   }
   if(a == 1){
     div1.innerHTML = z;
-    } else return a;
-   }
+    } 
+   
    
     
 
